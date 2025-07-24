@@ -4,5 +4,11 @@
     "name": "BritoHDZ",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01fe0ab16994",
+    "name": ".BritoHDZ",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

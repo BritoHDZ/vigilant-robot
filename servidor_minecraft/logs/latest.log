@@ -1,47 +1,295 @@
-[10:10:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[10:10:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[10:10:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:10:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[10:10:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[10:13:07] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[10:13:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[10:13:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:13:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[10:13:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - Chunky (1.4.40), Geyser-Spigot (2.8.2-SNAPSHOT), TabTPS (1.3.28), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[10:10:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:10:55] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[10:10:55] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[10:10:56] [ServerMain/INFO]: No existing world data, creating new world
-[10:10:57] [ServerMain/INFO]: Loaded 1407 recipes
-[10:10:57] [ServerMain/INFO]: Loaded 1520 advancements
-[10:10:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[10:10:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 482.9ms
-[10:10:57] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[10:10:57] [Server thread/INFO]: Loading properties
-[10:10:57] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[10:10:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:10:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:10:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:10:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:10:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:10:59] [Server thread/INFO]: Default game type: SURVIVAL
-[10:10:59] [Server thread/INFO]: Generating keypair
-[10:10:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:10:59] [Server thread/INFO]: Using epoll channel type
-[10:10:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:10:59] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[10:10:59] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[10:10:59] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[10:10:59] [Server thread/WARN]: Perhaps a server is already running on that port?
-[10:10:59] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to bind to port
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:230) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[10:10:59] [Server thread/ERROR]: This crash report has been saved to: /workspaces/vigilant-robot/servidor_minecraft/crash-reports/crash-2025-07-24_10.10.59-server.txt
-[10:10:59] [Server thread/INFO]: Stopping server
-[10:10:59] [Server thread/INFO]: Saving players
-[10:10:59] [Server thread/INFO]: Saving worlds
-[10:10:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:10:59] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[10:10:59] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[10:10:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[10:10:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[10:13:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:13:13] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:13:13] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[10:13:14] [ServerMain/INFO]: No existing world data, creating new world
+[10:13:15] [ServerMain/INFO]: Loaded 1407 recipes
+[10:13:15] [ServerMain/INFO]: Loaded 1520 advancements
+[10:13:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[10:13:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 509.1ms
+[10:13:16] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[10:13:16] [Server thread/INFO]: Loading properties
+[10:13:16] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[10:13:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:13:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:13:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:13:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:13:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:13:18] [Server thread/INFO]: Default game type: SURVIVAL
+[10:13:18] [Server thread/INFO]: Generating keypair
+[10:13:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:13:18] [Server thread/INFO]: Using epoll channel type
+[10:13:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:13:19] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[10:13:19] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[10:13:20] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[10:13:20] [Server thread/INFO]: [floodgate] Took 787ms to boot Floodgate
+[10:13:20] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[10:13:20] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.28
+[10:13:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[10:13:21] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[10:13:21] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[10:13:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:13:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:13:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:13:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:13:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:13:21] [Server thread/INFO]: Preparing level "world"
+[10:13:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:13:25] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:29] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:29] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:30] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:30] [Server thread/INFO]: Preparing spawn area: 0%
+[10:13:31] [Server thread/INFO]: Preparing spawn area: 2%
+[10:13:31] [Server thread/INFO]: Preparing spawn area: 6%
+[10:13:32] [Server thread/INFO]: Preparing spawn area: 18%
+[10:13:32] [Server thread/INFO]: Preparing spawn area: 18%
+[10:13:33] [Server thread/INFO]: Preparing spawn area: 46%
+[10:13:33] [Server thread/INFO]: Preparing spawn area: 51%
+[10:13:34] [Server thread/INFO]: Preparing spawn area: 69%
+[10:13:34] [Server thread/INFO]: Preparing spawn area: 87%
+[10:13:34] [Server thread/INFO]: Time elapsed: 9548 ms
+[10:13:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:13:34] [Server thread/INFO]: Preparing spawn area: 24%
+[10:13:35] [Server thread/INFO]: Preparing spawn area: 51%
+[10:13:36] [Server thread/INFO]: Preparing spawn area: 55%
+[10:13:36] [Server thread/INFO]: Time elapsed: 1195 ms
+[10:13:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:13:36] [Server thread/INFO]: Preparing spawn area: 2%
+[10:13:36] [Server thread/INFO]: Time elapsed: 454 ms
+[10:13:36] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[10:13:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[10:13:36] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.28
+[10:13:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[10:13:38] [Server thread/INFO]: [spark] Starting background profiler...
+[10:13:38] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:13:38] [Server thread/INFO]: [Geyser-Spigot] 
+[10:13:38] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
+[10:13:38] [Server thread/INFO]: [Geyser-Spigot] 
+[10:13:38] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:13:42] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[10:13:42] [Server thread/INFO]: [Geyser-Spigot] Done (3.797s)! Run /geyser help for help!
+[10:13:42] [ForkJoinPool.commonPool-worker-1/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
+[10:13:42] [Server thread/INFO]: Done preparing level "world" (20.736s)
+[10:13:42] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[10:13:42] [Server thread/INFO]: Running delayed init tasks
+[10:13:42] [Server thread/INFO]: Done (35.422s)! For help, type "help"
+[10:13:43] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[10:13:53] [User Authenticator #0/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
+[10:13:54] [Server thread/INFO]: BritoHDZ joined the game
+[10:13:54] [Server thread/INFO]: BritoHDZ[/127.37.57.190:40139] logged in with entity id 29 at ([world]29.5, 70.0, -20.5)
+[10:14:12] [Server thread/INFO]: BritoHDZ issued server command: /plugins
+[10:14:21] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
+[10:14:24] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle bossbar
+[10:14:41] [Server thread/INFO]: BritoHDZ issued server command: /gamemode creative
+[10:14:41] [Server thread/INFO]: [BritoHDZ: Set own game mode to Creative Mode]
+[10:15:05] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
+[10:15:18] [Server thread/INFO]: BritoHDZ issued server command: /time set day
+[10:15:18] [Server thread/INFO]: [BritoHDZ: Set the time to 1000]
+[10:15:29] [Server thread/INFO]: BritoHDZ issued server command: /chunky radius 500
+[10:15:38] [Server thread/INFO]: BritoHDZ issued server command: /chunky start
+[10:15:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 265 chunks (6.27%), ETA: 0:00:22, Rate: 177.3 cps, Current: 0, 17
+[10:15:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 284 chunks (6.72%), ETA: 0:00:34, Rate: 113.6 cps, Current: 6, 18
+[10:15:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 301 chunks (7.12%), ETA: 0:00:46, Rate: 84.5 cps, Current: 1, 19
+[10:15:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 310 chunks (7.34%), ETA: 0:00:57, Rate: 67.7 cps, Current: 1, 24
+[10:15:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 325 chunks (7.69%), ETA: 0:01:07, Rate: 57.7 cps, Current: 3, 24
+[10:15:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 356 chunks (8.43%), ETA: 0:01:14, Rate: 52.1 cps, Current: 3, 30
+[10:15:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 374 chunks (8.85%), ETA: 0:01:21, Rate: 47.3 cps, Current: 7, 25
+[10:15:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 388 chunks (9.18%), ETA: 0:01:30, Rate: 42.5 cps, Current: 7, 30
+[10:15:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 403 chunks (9.54%), ETA: 0:01:36, Rate: 39.6 cps, Current: 10, 29
+[10:15:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 420 chunks (9.94%), ETA: 0:01:41, Rate: 37.5 cps, Current: 12, 25
+[10:15:50] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 422 chunks (9.99%), ETA: 0:01:53, Rate: 33.5 cps, Current: 13, 26
+[10:15:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 433 chunks (10.25%), ETA: 0:02:02, Rate: 31.1 cps, Current: 13, 23
+[10:15:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 502 chunks (11.88%), ETA: 0:01:50, Rate: 33.5 cps, Current: 14, 31
+[10:15:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 518 chunks (12.26%), ETA: 0:01:55, Rate: 32.2 cps, Current: 16, 17
+[10:15:54] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:55] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 543 chunks (12.85%), ETA: 0:01:56, Rate: 31.7 cps, Current: 21, 20
+[10:15:56] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 560 chunks (13.25%), ETA: 0:01:59, Rate: 30.6 cps, Current: 22, 21
+[10:15:57] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:58] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 585 chunks (13.85%), ETA: 0:02:00, Rate: 30.3 cps, Current: 23, 21
+[10:15:58] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:15:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 618 chunks (14.63%), ETA: 0:01:59, Rate: 30.2 cps, Current: 19, 30
+[10:15:59] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:00] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 637 chunks (15.08%), ETA: 0:02:01, Rate: 29.6 cps, Current: 24, 26
+[10:16:00] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:01] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 656 chunks (15.53%), ETA: 0:02:02, Rate: 29.1 cps, Current: 26, 28
+[10:16:02] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 670 chunks (15.86%), ETA: 0:02:04, Rate: 28.5 cps, Current: 29, 29
+[10:16:02] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 687 chunks (16.26%), ETA: 0:02:06, Rate: 28.0 cps, Current: 30, 29
+[10:16:03] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:04] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 709 chunks (16.78%), ETA: 0:02:06, Rate: 27.7 cps, Current: 31, 30
+[10:16:04] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:05] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 737 chunks (17.44%), ETA: 0:02:06, Rate: 27.6 cps, Current: 27, 20
+[10:16:06] [Server thread/INFO]: BritoHDZ issued server command: /chunky progress
+[10:16:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 756 chunks (17.89%), ETA: 0:02:07, Rate: 27.2 cps, Current: 29, 18
+[10:16:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 765 chunks (18.11%), ETA: 0:02:10, Rate: 26.5 cps, Current: 29, 13
+[10:16:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 781 chunks (18.49%), ETA: 0:03:09, Rate: 18.1 cps, Current: 30, 13
+[10:16:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 923 chunks (21.85%), ETA: 0:02:28, Rate: 22.2 cps, Current: 31, 11
+[10:16:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 941 chunks (22.27%), ETA: 0:02:27, Rate: 22.2 cps, Current: 21, 3
+[10:16:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 974 chunks (23.05%), ETA: 0:02:22, Rate: 22.8 cps, Current: 27, 6
+[10:16:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 995 chunks (23.55%), ETA: 0:02:20, Rate: 23.0 cps, Current: 29, 5
+[10:16:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1025 chunks (24.26%), ETA: 0:02:15, Rate: 23.6 cps, Current: 32, 17
+[10:16:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1046 chunks (24.76%), ETA: 0:02:16, Rate: 23.4 cps, Current: 32, 29
+[10:16:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1050 chunks (24.85%), ETA: 0:02:17, Rate: 23.0 cps, Current: 30, 0
+[10:16:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1057 chunks (25.02%), ETA: 0:02:29, Rate: 21.2 cps, Current: 32, -1
+[10:16:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1058 chunks (25.04%), ETA: 0:02:48, Rate: 18.8 cps, Current: 2, -30
+[10:16:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1085 chunks (25.68%), ETA: 0:02:44, Rate: 19.1 cps, Current: 32, -29
+[10:16:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1093 chunks (25.87%), ETA: 0:02:53, Rate: 18.0 cps, Current: 1, -29
+[10:16:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1095 chunks (25.92%), ETA: 0:03:12, Rate: 16.3 cps, Current: 0, -31
+[10:16:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1106 chunks (26.18%), ETA: 0:03:14, Rate: 16.0 cps, Current: 0, -28
+[10:16:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1134 chunks (26.84%), ETA: 0:03:10, Rate: 16.2 cps, Current: 5, -30
+[10:16:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1143 chunks (27.05%), ETA: 0:03:14, Rate: 15.8 cps, Current: 5, -32
+[10:16:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1164 chunks (27.55%), ETA: 0:03:14, Rate: 15.7 cps, Current: 6, -32
+[10:16:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1261 chunks (29.85%), ETA: 0:02:40, Rate: 18.4 cps, Current: 10, -26
+[10:16:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1678 chunks (39.72%), ETA: 0:01:21, Rate: 31.4 cps, Current: 15, -30
+[10:16:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1699 chunks (40.21%), ETA: 0:01:18, Rate: 32.1 cps, Current: 22, -9
+[10:16:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1726 chunks (40.85%), ETA: 0:01:17, Rate: 32.4 cps, Current: 23, -9
+[10:16:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1797 chunks (42.53%), ETA: 0:01:21, Rate: 29.9 cps, Current: 24, -9
+[10:16:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1846 chunks (43.69%), ETA: 0:01:16, Rate: 31.0 cps, Current: 31, -15
+[10:16:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1873 chunks (44.33%), ETA: 0:01:16, Rate: 30.7 cps, Current: 29, -20
+[10:16:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1962 chunks (46.44%), ETA: 0:01:08, Rate: 33.2 cps, Current: 16, -23
+[10:16:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1993 chunks (47.17%), ETA: 0:01:07, Rate: 33.2 cps, Current: 16, -28
+[10:16:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2022 chunks (47.86%), ETA: 0:01:06, Rate: 33.3 cps, Current: 20, -28
+[10:16:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2049 chunks (48.50%), ETA: 0:01:02, Rate: 34.6 cps, Current: 25, -30
+[10:16:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2107 chunks (49.87%), ETA: 0:00:59, Rate: 35.4 cps, Current: 25, -32
+[10:16:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2113 chunks (50.01%), ETA: 0:00:56, Rate: 37.6 cps, Current: -30, -27
+[10:16:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2134 chunks (50.51%), ETA: 0:00:56, Rate: 36.8 cps, Current: -26, -26
+[10:16:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2161 chunks (51.15%), ETA: 0:00:53, Rate: 38.8 cps, Current: -31, -25
+[10:16:52] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
+[10:16:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2171 chunks (51.38%), ETA: 0:00:54, Rate: 37.7 cps, Current: -28, -32
+[10:16:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2186 chunks (51.74%), ETA: 0:00:54, Rate: 37.7 cps, Current: -19, -29
+[10:16:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2215 chunks (52.43%), ETA: 0:00:50, Rate: 39.8 cps, Current: -19, -26
+[10:16:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2261 chunks (53.51%), ETA: 0:00:49, Rate: 39.6 cps, Current: -18, -22
+[10:16:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2269 chunks (53.70%), ETA: 0:00:49, Rate: 39.2 cps, Current: -19, -22
+[10:16:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2272 chunks (53.78%), ETA: 0:00:50, Rate: 38.9 cps, Current: -20, -22
+[10:17:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2282 chunks (54.01%), ETA: 0:00:50, Rate: 38.5 cps, Current: -22, -20
+[10:17:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2295 chunks (54.32%), ETA: 0:00:49, Rate: 39.1 cps, Current: -25, -19
+[10:17:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2323 chunks (54.98%), ETA: 0:00:48, Rate: 39.5 cps, Current: -28, -23
+[10:17:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2342 chunks (55.43%), ETA: 0:00:51, Rate: 36.8 cps, Current: -27, -17
+[10:17:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2367 chunks (56.02%), ETA: 0:01:19, Rate: 23.4 cps, Current: -30, -15
+[10:17:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2386 chunks (56.47%), ETA: 0:01:18, Rate: 23.6 cps, Current: -32, -19
+[10:17:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2407 chunks (56.97%), ETA: 0:01:17, Rate: 23.5 cps, Current: -26, -11
+[10:17:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2420 chunks (57.28%), ETA: 0:01:24, Rate: 21.3 cps, Current: -31, -11
+[10:17:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2441 chunks (57.78%), ETA: 0:01:28, Rate: 20.3 cps, Current: -30, -3
+[10:17:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2468 chunks (58.41%), ETA: 0:01:26, Rate: 20.3 cps, Current: -28, -2
+[10:17:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2489 chunks (58.91%), ETA: 0:01:36, Rate: 18.0 cps, Current: -25, -6
+[10:17:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2555 chunks (60.47%), ETA: 0:01:27, Rate: 19.1 cps, Current: -23, -2
+[10:17:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2964 chunks (70.15%), ETA: 0:00:39, Rate: 31.7 cps, Current: -2, -22
+[10:17:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2996 chunks (70.91%), ETA: 0:00:38, Rate: 31.9 cps, Current: -15, -24
+[10:17:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3031 chunks (71.74%), ETA: 0:00:38, Rate: 31.2 cps, Current: -15, -28
+[10:17:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3058 chunks (72.38%), ETA: 0:00:34, Rate: 33.9 cps, Current: -11, -30
+[10:17:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3096 chunks (73.28%), ETA: 0:00:33, Rate: 34.0 cps, Current: -5, -27
+[10:17:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3137 chunks (74.25%), ETA: 0:00:31, Rate: 34.2 cps, Current: -30, 0
+[10:17:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3141 chunks (74.34%), ETA: 0:00:32, Rate: 33.3 cps, Current: -30, 1
+[10:17:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3165 chunks (74.91%), ETA: 0:00:31, Rate: 33.7 cps, Current: -31, 2
+[10:17:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3202 chunks (75.79%), ETA: 0:00:31, Rate: 32.8 cps, Current: -22, 1
+[10:17:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3224 chunks (76.31%), ETA: 0:00:31, Rate: 32.3 cps, Current: -25, 7
+[10:17:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3273 chunks (77.47%), ETA: 0:00:27, Rate: 35.0 cps, Current: -24, 8
+[10:17:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3290 chunks (77.87%), ETA: 0:00:27, Rate: 34.2 cps, Current: -18, 15
+[10:17:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3305 chunks (78.22%), ETA: 0:00:26, Rate: 34.6 cps, Current: -22, 11
+[10:17:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3318 chunks (78.53%), ETA: 0:00:26, Rate: 34.6 cps, Current: -25, 12
+[10:17:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3339 chunks (79.03%), ETA: 0:00:26, Rate: 34.1 cps, Current: -27, 9
+[10:17:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3367 chunks (79.69%), ETA: 0:00:24, Rate: 34.3 cps, Current: -30, 11
+[10:17:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3391 chunks (80.26%), ETA: 0:00:24, Rate: 34.3 cps, Current: -30, 17
+[10:17:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3410 chunks (80.71%), ETA: 0:00:23, Rate: 34.3 cps, Current: -26, 18
+[10:17:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3431 chunks (81.21%), ETA: 0:00:23, Rate: 34.3 cps, Current: -26, 20
+[10:17:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3444 chunks (81.51%), ETA: 0:00:22, Rate: 34.5 cps, Current: -30, 23
+[10:17:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3460 chunks (81.89%), ETA: 0:00:22, Rate: 34.5 cps, Current: -32, 22
+[10:17:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3492 chunks (82.65%), ETA: 0:00:21, Rate: 34.4 cps, Current: -29, 30
+[10:17:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3514 chunks (83.17%), ETA: 0:00:20, Rate: 34.4 cps, Current: -23, 25
+[10:17:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3537 chunks (83.72%), ETA: 0:00:20, Rate: 32.9 cps, Current: -22, 24
+[10:17:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3556 chunks (84.17%), ETA: 0:00:33, Rate: 20.1 cps, Current: -20, 25
+[10:17:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3570 chunks (84.50%), ETA: 0:00:33, Rate: 19.5 cps, Current: -22, 31
+[10:17:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3610 chunks (85.44%), ETA: 0:00:31, Rate: 19.7 cps, Current: -17, 27
+[10:17:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3665 chunks (86.75%), ETA: 0:00:27, Rate: 20.6 cps, Current: -12, 17
+[10:17:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3696 chunks (87.48%), ETA: 0:00:26, Rate: 20.3 cps, Current: -10, 19
+[10:17:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3723 chunks (88.12%), ETA: 0:00:24, Rate: 20.2 cps, Current: -15, 30
+[10:17:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3756 chunks (88.90%), ETA: 0:00:22, Rate: 20.5 cps, Current: -10, 24
+[10:17:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3770 chunks (89.23%), ETA: 0:00:21, Rate: 21.3 cps, Current: -12, 31
+[10:17:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3821 chunks (90.44%), ETA: 0:00:18, Rate: 22.3 cps, Current: -9, 31
+[10:17:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4161 chunks (98.49%), ETA: 0:00:01, Rate: 32.1 cps, Current: -19, 32
+[10:17:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4183 chunks (99.01%), ETA: 0:00:01, Rate: 32.3 cps, Current: 3, 32
+[10:17:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4212 chunks (99.69%), ETA: 0:00:00, Rate: 31.6 cps, Current: 19, 32
+[10:17:57] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:02:18
+[10:18:27] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
+[10:18:27] [localSession-7-2/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
+[10:18:27] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
+[10:18:27] [Server thread/INFO]: .BritoHDZ joined the game
+[10:18:27] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 1554 at ([world]32.5, 63.0, -12.5)
+[10:19:08] [Server thread/INFO]: .BritoHDZ issued server command: /op
+[10:19:15] [Server thread/INFO]: BritoHDZ issued server command: /op .BritoHDZ
+[10:19:15] [Server thread/INFO]: [BritoHDZ: Made .BritoHDZ a server operator]
+[10:19:33] [Server thread/INFO]: .BritoHDZ issued server command: /tabtps toggle actionbar
+[10:19:58] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
+[10:19:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
+[10:19:58] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
+[10:19:58] [Server thread/INFO]: .BritoHDZ left the game
+[10:20:08] [Server thread/INFO]: BritoHDZ issued server command: /clearlagg
+[10:20:15] [Server thread/INFO]: BritoHDZ issued server command: /plugins
+[10:20:29] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
+[10:20:36] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
+[10:20:38] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle bossbar
+[10:21:15] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
+[10:21:15] [Server thread/INFO]: BritoHDZ left the game
+[10:21:27] [Server thread/INFO]: Stopping the server
+[10:21:27] [Server thread/INFO]: Stopping server
+[10:21:27] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[10:21:27] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:21:27] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:21:27] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.28
+[10:21:27] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[10:21:27] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[10:21:27] [Server thread/INFO]: Saving players
+[10:21:27] [WebSocketConnectReadThread-80/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:21:27] [Server thread/INFO]: Saving worlds
+[10:21:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:21:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:21:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:21:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Saved 415 block chunks, 116 entity chunks, 0 poi chunks in world 'world' in 2.81s
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:21:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:21:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:21:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:21:31] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.22s
+[10:21:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:21:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:21:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:21:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:21:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:21:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:21:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[10:21:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[10:21:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:21:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
