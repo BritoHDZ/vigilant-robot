@@ -89,3 +89,92 @@
 [00:52:27] [Server thread/INFO]: [BritoHDZ: Killed 331 entities]
 [00:53:44] [Server thread/INFO]: BritoHDZ issued server command: /give BritoHDZ minecraft:command_block
 [00:53:44] [Server thread/INFO]: [BritoHDZ: Gave 1 [Command Block] to BritoHDZ]
+[00:54:57] [Server thread/INFO]: BritoHDZ issued server command: /attribute @s minecraft:attack_speed base set 40
+[00:55:34] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
+[00:55:34] [Server thread/INFO]: BritoHDZ left the game
+[00:55:50] [User Authenticator #1/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
+[00:55:50] [Server thread/INFO]: BritoHDZ joined the game
+[00:55:50] [Server thread/INFO]: BritoHDZ[/127.37.57.190:44007] logged in with entity id 2712 at ([world]35.133483332546106, 74.41880863741476, -30.93885937811138)
+[00:56:04] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay reloadconfig
+[00:56:07] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
+[00:56:07] [Server thread/INFO]: BritoHDZ left the game
+[00:57:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
+[00:57:07] [localSession-7-2/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
+[00:57:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:57:08] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
+[00:57:08] [Server thread/INFO]: .BritoHDZ joined the game
+[00:57:08] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 3238 at ([world]33.097614, 68.0, -26.196743)
+[00:57:23] [Server thread/INFO]: .BritoHDZ was slain by Drowned
+[00:58:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
+[00:58:00] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
+[00:58:00] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
+[00:58:00] [Server thread/INFO]: .BritoHDZ left the game
+[00:58:15] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
+[00:58:15] [localSession-7-3/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
+[00:58:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
+[00:58:15] [Server thread/INFO]: .BritoHDZ joined the game
+[00:58:15] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 3855 at ([world]36.69999, 63.0, -2.69999)
+[00:58:16] [User Authenticator #2/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
+[00:58:17] [Server thread/INFO]: BritoHDZ joined the game
+[00:58:17] [Server thread/INFO]: BritoHDZ[/127.37.57.190:50297] logged in with entity id 3867 at ([world]35.30157049537894, 79.28829146941719, -23.651744444070648)
+[00:58:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
+[00:58:54] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
+[00:58:54] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
+[00:58:54] [Server thread/INFO]: .BritoHDZ left the game
+[00:59:05] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
+[00:59:15] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
+[00:59:29] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
+[00:59:29] [localSession-7-4/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
+[00:59:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
+[00:59:30] [Server thread/INFO]: .BritoHDZ joined the game
+[00:59:30] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 4426 at ([world]36.69999, 63.0, -2.69999)
+[00:59:39] [Server thread/INFO]: BritoHDZ issued server command: /attribute minecraft:attack_speed base set 40
+[00:59:50] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
+[01:00:19] [Server thread/INFO]: BritoHDZ issued server command: /attribute .BritoHDZ minecraft:attack_speed base set 40
+[01:00:40] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
+[01:00:40] [Server thread/INFO]: BritoHDZ left the game
+[01:00:43] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
+[01:00:43] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
+[01:00:43] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
+[01:00:43] [Server thread/INFO]: .BritoHDZ left the game
+[01:01:29] [Server thread/INFO]: Stopping the server
+[01:01:29] [Server thread/INFO]: Stopping server
+[01:01:29] [Server thread/INFO]: [NoHitDelay] Disabling NoHitDelay v1.2
+[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:01:29] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.28
+[01:01:29] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[01:01:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[01:01:29] [Server thread/INFO]: Saving players
+[01:01:30] [WebSocketConnectReadThread-83/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:01:30] [Server thread/INFO]: Saving worlds
+[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 126 entity chunks, 0 poi chunks in world 'world' in 0.09s
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:01:30] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:01:30] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:01:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:01:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
