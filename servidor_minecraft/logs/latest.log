@@ -1,180 +1,307 @@
-[00:44:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[00:44:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[00:44:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:44:56] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/NoHitDelay-1.2.jar'...
-[00:44:57] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NoHitDelay-1.2.jar' in 1304ms.
-[00:44:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[00:44:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Chunky (1.4.40), Geyser-Spigot (2.8.2-SNAPSHOT), NoHitDelay (1.2), TabTPS (1.3.28), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[00:45:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:45:04] [ServerMain/INFO]: Loaded 1407 recipes
-[00:45:04] [ServerMain/INFO]: Loaded 1520 advancements
-[00:45:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[00:45:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 441.1ms
-[00:45:05] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[00:45:05] [Server thread/INFO]: Loading properties
-[00:45:05] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[00:45:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:45:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:45:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:45:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:45:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:45:08] [Server thread/INFO]: Default game type: SURVIVAL
-[00:45:08] [Server thread/INFO]: Generating keypair
-[00:45:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:45:08] [Server thread/INFO]: Using epoll channel type
-[00:45:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:45:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[00:45:08] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[00:45:09] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:45:10] [Server thread/INFO]: [floodgate] Took 1,127ms to boot Floodgate
-[00:45:10] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[00:45:10] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.28
-[00:45:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[00:45:10] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:45:10] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:45:10] [Server thread/INFO]: [NoHitDelay] Loading server plugin NoHitDelay v1.2
-[00:45:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:45:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:45:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:45:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:45:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:45:10] [Server thread/INFO]: Preparing level "world"
-[00:45:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:45:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:45:11] [Server thread/INFO]: Preparing spawn area: 12%
-[00:45:12] [Server thread/INFO]: Preparing spawn area: 12%
-[00:45:12] [Server thread/INFO]: Time elapsed: 1327 ms
-[00:45:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:45:12] [Server thread/INFO]: Preparing spawn area: 0%
-[00:45:13] [Server thread/INFO]: Time elapsed: 422 ms
-[00:45:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:45:13] [Server thread/INFO]: Preparing spawn area: 0%
-[00:45:13] [Server thread/INFO]: Time elapsed: 288 ms
-[00:45:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[00:45:13] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[00:45:13] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.28
-[00:45:14] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[00:45:15] [Server thread/INFO]: [NoHitDelay] Enabling NoHitDelay v1.2
-[00:45:15] [Server thread/INFO]: [spark] Starting background profiler...
-[00:45:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:45:16] [Server thread/INFO]: [Geyser-Spigot] 
-[00:45:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
-[00:45:16] [Server thread/INFO]: [Geyser-Spigot] 
-[00:45:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:45:20] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[00:45:20] [Server thread/INFO]: [Geyser-Spigot] Done (3.797s)! Run /geyser help for help!
-[00:45:20] [Server thread/INFO]: Done preparing level "world" (9.415s)
-[00:45:20] [Server thread/INFO]: Running delayed init tasks
-[00:45:20] [Server thread/INFO]: Done (28.969s)! For help, type "help"
-[00:45:36] [User Authenticator #0/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[00:45:38] [Server thread/INFO]: BritoHDZ joined the game
-[00:45:38] [Server thread/INFO]: BritoHDZ[/127.37.57.190:57717] logged in with entity id 91 at ([world]39.47143097823311, 74.0, -20.741224163449306)
-[00:46:19] [Server thread/INFO]: BritoHDZ issued server command: /plugins
-[00:46:37] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay BritoHDZ
-[00:46:41] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 1
-[00:47:01] [Server thread/INFO]: [BritoHDZ: Set own game mode to Survival Mode]
-[00:47:06] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 3
-[00:47:12] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 0.5
-[00:47:14] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 0
-[00:47:22] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 0 BritoHDZ
-[00:47:29] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 10
-[00:48:04] [Server thread/INFO]: [BritoHDZ: Set own game mode to Creative Mode]
-[00:48:53] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 1
-[00:49:16] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay 5
-[00:49:17] [Server thread/INFO]: BritoHDZ has made the advancement [Sneak 100]
-[00:50:16] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay setdelay
-[00:52:27] [Server thread/INFO]: BritoHDZ issued server command: /kill @e
-[00:52:27] [Server thread/INFO]: BritoHDZ was killed
-[00:52:27] [Server thread/INFO]: [BritoHDZ: Killed 331 entities]
-[00:53:44] [Server thread/INFO]: BritoHDZ issued server command: /give BritoHDZ minecraft:command_block
-[00:53:44] [Server thread/INFO]: [BritoHDZ: Gave 1 [Command Block] to BritoHDZ]
-[00:54:57] [Server thread/INFO]: BritoHDZ issued server command: /attribute @s minecraft:attack_speed base set 40
-[00:55:34] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
-[00:55:34] [Server thread/INFO]: BritoHDZ left the game
-[00:55:50] [User Authenticator #1/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[00:55:50] [Server thread/INFO]: BritoHDZ joined the game
-[00:55:50] [Server thread/INFO]: BritoHDZ[/127.37.57.190:44007] logged in with entity id 2712 at ([world]35.133483332546106, 74.41880863741476, -30.93885937811138)
-[00:56:04] [Server thread/INFO]: BritoHDZ issued server command: /nohitdelay reloadconfig
-[00:56:07] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
-[00:56:07] [Server thread/INFO]: BritoHDZ left the game
-[00:57:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
-[00:57:07] [localSession-7-2/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
-[00:57:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[00:57:08] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
-[00:57:08] [Server thread/INFO]: .BritoHDZ joined the game
-[00:57:08] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 3238 at ([world]33.097614, 68.0, -26.196743)
-[00:57:23] [Server thread/INFO]: .BritoHDZ was slain by Drowned
-[00:58:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
-[00:58:00] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
-[00:58:00] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
-[00:58:00] [Server thread/INFO]: .BritoHDZ left the game
-[00:58:15] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
-[00:58:15] [localSession-7-3/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
-[00:58:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
-[00:58:15] [Server thread/INFO]: .BritoHDZ joined the game
-[00:58:15] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 3855 at ([world]36.69999, 63.0, -2.69999)
-[00:58:16] [User Authenticator #2/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[00:58:17] [Server thread/INFO]: BritoHDZ joined the game
-[00:58:17] [Server thread/INFO]: BritoHDZ[/127.37.57.190:50297] logged in with entity id 3867 at ([world]35.30157049537894, 79.28829146941719, -23.651744444070648)
-[00:58:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
-[00:58:54] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
-[00:58:54] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
-[00:58:54] [Server thread/INFO]: .BritoHDZ left the game
-[00:59:05] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
-[00:59:15] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
-[00:59:29] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username BritoHDZ
-[00:59:29] [localSession-7-4/INFO]: [Geyser-Spigot] BritoHDZ (logged in as: BritoHDZ) has connected to the Java server
-[00:59:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ joined (UUID: 00000000-0000-0000-0009-01fe0ab16994)
-[00:59:30] [Server thread/INFO]: .BritoHDZ joined the game
-[00:59:30] [Server thread/INFO]: .BritoHDZ[/127.37.57.190:0] logged in with entity id 4426 at ([world]36.69999, 63.0, -2.69999)
-[00:59:39] [Server thread/INFO]: BritoHDZ issued server command: /attribute minecraft:attack_speed base set 40
-[00:59:50] [Server thread/INFO]: BritoHDZ issued server command: /attribute @a minecraft:attack_speed base set 40
-[01:00:19] [Server thread/INFO]: BritoHDZ issued server command: /attribute .BritoHDZ minecraft:attack_speed base set 40
-[01:00:40] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
-[01:00:40] [Server thread/INFO]: BritoHDZ left the game
-[01:00:43] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] BritoHDZ has disconnected from the Java server because of Bedrock client disconnected
-[01:00:43] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .BritoHDZ disconnected
-[01:00:43] [Server thread/INFO]: .BritoHDZ lost connection: Disconnected
-[01:00:43] [Server thread/INFO]: .BritoHDZ left the game
-[01:01:29] [Server thread/INFO]: Stopping the server
-[01:01:29] [Server thread/INFO]: Stopping server
-[01:01:29] [Server thread/INFO]: [NoHitDelay] Disabling NoHitDelay v1.2
-[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[01:01:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[01:01:29] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.28
-[01:01:29] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[01:01:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[01:01:29] [Server thread/INFO]: Saving players
-[01:01:30] [WebSocketConnectReadThread-83/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[01:01:30] [Server thread/INFO]: Saving worlds
-[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 126 entity chunks, 0 poi chunks in world 'world' in 0.09s
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[01:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[01:01:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:01:30] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:01:30] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:01:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:01:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[01:34:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[01:34:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[01:34:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:34:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[01:34:11] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/HoloMobHealth-2.3.15.0.jar'...
+[01:34:11] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/LagFixer.jar'...
+[01:34:11] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/GraveLootZ-1.2.jar'...
+[01:34:13] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LagFixer.jar' in 2405ms.
+[01:34:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 4622ms.
+[01:34:15] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HoloMobHealth-2.3.15.0.jar' in 4785ms.
+[01:34:16] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GraveLootZ-1.2.jar' in 4797ms.
+[01:34:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[01:34:16] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - Minepacks (2.4.32.4-T20250718161642)
+[01:34:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - Chunky (1.4.40), Geyser-Spigot (2.8.2-SNAPSHOT), GraveLootZ (1.2), HoloMobHealth (2.3.15.0), LagFixer (1.4.24 [build 117]), SkinsRestorer (15.7.7), TabTPS (1.3.28), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
+[01:34:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:34:23] [ServerMain/INFO]: Loaded 1407 recipes
+[01:34:23] [ServerMain/INFO]: Loaded 1520 advancements
+[01:34:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:34:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 479.0ms
+[01:34:24] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[01:34:24] [Server thread/INFO]: Loading properties
+[01:34:24] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[01:34:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:34:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:34:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:34:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:34:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:34:25] [Server thread/INFO]: Default game type: SURVIVAL
+[01:34:25] [Server thread/INFO]: Generating keypair
+[01:34:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:34:25] [Server thread/INFO]: Using epoll channel type
+[01:34:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:34:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[01:34:25] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/HoloMobHealth-2.3.15.0.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'HoloMobHealth'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:566) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:235) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 3 libraries... please wait
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/apache/33/apache-33.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.19.0/commons-io-2.19.0.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/81/commons-parent-81.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom
+[01:34:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-parent/6.8.0/oshi-parent-6.8.0.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-parent/2.0.17/slf4j-parent-2.0.17.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar
+[01:34:26] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar
+[01:34:26] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[01:34:26] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar
+[01:34:26] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar
+[01:34:26] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/vigilant-robot/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[01:34:26] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[01:34:27] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[01:34:27] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:34:28] [Server thread/INFO]: [floodgate] Took 965ms to boot Floodgate
+[01:34:28] [Server thread/INFO]: [GraveLootZ] Loading server plugin GraveLootZ v1.2
+[01:34:28] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[01:34:28] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.4.24 [build 117]
+[01:34:28] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.28
+[01:34:28] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.32.4-T20250718161642
+[01:34:28] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[01:34:28] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:34:28] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:34:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[01:34:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:34:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[01:34:29] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[01:34:29] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[01:34:29] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:34:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:34:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:34:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:34:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:34:29] [Server thread/INFO]: Preparing level "world"
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.7
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 7eff058
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:34:30] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:34:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:34:30] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:31] [Server thread/INFO]: Time elapsed: 875 ms
+[01:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:31] [Server thread/INFO]: Time elapsed: 255 ms
+[01:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:31] [Server thread/INFO]: Time elapsed: 174 ms
+[01:34:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[01:34:32] [Server thread/INFO]: [GraveLootZ] Enabling GraveLootZ v1.2
+[01:34:32] [Server thread/ERROR]: [GraveLootZ] Failed to register events for class com.graves.gravelootz.GraveLootZ because net/milkbowl/vault/economy/Economy does not exist.
+[01:34:32] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been enabled!
+[01:34:32] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.4.24 [build 117]
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+
+
+
+
+
+LagFixer - Best Performance Solution!
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+
+
+
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 4ms!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.Paper
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R5.SupportNms
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 15ms!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 122ms!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook WildStacker, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook UltimateStacker, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook spark, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook ModelEngine, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook RoseStacker, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Skipping hook PlaceholderAPI, reason: Plugin not found
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 1ms!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 9ms!
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 0ms!
+[01:34:32] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[01:34:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 9ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 25ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 2ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 2ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagMonitor in 3ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 6ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 1ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 1ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] [STDOUT] Unknown "EntityType" enum value: POTION
+[01:34:33] [Server thread/WARN]: Nag author(s): '[lychee]' of 'LagFixer v1.4.24 [build 117]' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 7ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 10ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagMonitor in 2ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 6ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] [STDOUT] Unknown "EntityType" enum value: POTION
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 1ms.
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 325ms!
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 259ms!
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[01:34:33] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[01:34:33] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.28
+[01:34:34] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.32.4-T20250718161642
+[01:34:34] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[01:34:34] [Server thread/INFO]: [Minepacks] File "/config.yml" extracted successfully!
+[01:34:34] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[01:34:34] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
+[01:34:34] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
+[01:34:34] [Server thread/INFO]: [Minepacks] File "/lang/en.yml" extracted successfully!
+[01:34:34] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[01:34:34] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[01:34:34] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[01:34:34] [Server thread/INFO]: [Minepacks] File "/lang/items_en.yml" extracted successfully!
+[01:34:34] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[01:34:34] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[01:34:34] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
+[01:34:34] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[01:34:34] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[01:34:35] [Server thread/INFO]: [spark] Starting background profiler...
+[01:34:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:34:35] [Server thread/INFO]: [Geyser-Spigot] 
+[01:34:35] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
+[01:34:35] [Server thread/INFO]: [Geyser-Spigot] 
+[01:34:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:34:39] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[01:34:39] [Server thread/INFO]: [Geyser-Spigot] Done (3.821s)! Run /geyser help for help!
+[01:34:39] [Server thread/INFO]: Done preparing level "world" (9.535s)
+[01:34:39] [Server thread/INFO]: Running delayed init tasks
+[01:34:39] [Server thread/INFO]: Done (29.799s)! For help, type "help"
+[01:34:43] [pool-26-thread-1/INFO]: Map color cache not found, building it in the background
+[01:34:56] [Worker-Main-1/INFO]: Map color cache build successfully
+[01:35:10] [User Authenticator #0/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
+[01:35:10] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
+[01:35:11] [Server thread/INFO]: BritoHDZ joined the game
+[01:35:11] [Server thread/INFO]: BritoHDZ[/127.37.57.190:36481] logged in with entity id 88 at ([world]36.925357880650424, 63.0, 0.010907608800716532)
+[01:35:33] [Server thread/INFO]: BritoHDZ issued server command: /plugins
+[01:35:53] [Server thread/INFO]: BritoHDZ issued server command: /
+[01:36:11] [Server thread/INFO]: BritoHDZ issued server command: /bukkit:plugins
+[01:37:05] [Server thread/INFO]: BritoHDZ has made the advancement [Monster Hunter]
+[01:38:22] [Server thread/INFO]: BritoHDZ issued server command: /stop
+[01:38:22] [Server thread/INFO]: [BritoHDZ: Stopping the server]
+[01:38:22] [Server thread/INFO]: Stopping server
+[01:38:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[01:38:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[01:38:22] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:38:22] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:38:22] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.32.4-T20250718161642
+[01:38:22] [WebSocketConnectReadThread-109/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:38:23] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[01:38:23] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[01:38:23] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[01:38:23] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.28
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.4.24 [build 117]
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 0ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagMonitor in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagMonitor in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0ms.
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 2ms!
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[01:38:23] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 1ms!
+[01:38:23] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[01:38:23] [Server thread/INFO]: [GraveLootZ] Disabling GraveLootZ v1.2
+[01:38:23] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been disabled!
+[01:38:23] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[01:38:23] [Server thread/INFO]: Saving players
+[01:38:23] [Server thread/INFO]: BritoHDZ lost connection: Server closed
+[01:38:23] [Server thread/INFO]: BritoHDZ left the game
+[01:38:23] [Server thread/INFO]: Saving worlds
+[01:38:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:38:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:38:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:38:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1406 block chunks, 1406 entity chunks, 0 poi chunks in world 'world' in 2.97s
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:38:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:38:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:38:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:38:26] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:38:26] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:38:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:38:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
