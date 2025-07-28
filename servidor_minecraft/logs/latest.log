@@ -417,3 +417,16 @@ java.lang.NullPointerException: null
 [00:36:26] [Server thread/INFO]: BritoHDZ issued server command: /attribute .JoanLewis70 minecraft:attack_speed base set 40
 [00:36:55] [Server thread/INFO]: BritoHDZ issued server command: /op .JoanLewis70
 [00:36:55] [Server thread/INFO]: [BritoHDZ: Made .JoanLewis70 a server operator]
+[00:38:25] [Server thread/INFO]: BritoHDZ issued server command: /skin
+[00:39:21] [Server thread/INFO]: BritoHDZ issued server command: /skin
+[00:39:58] [Server thread/INFO]: BritoHDZ issued server command: /skin MULBEYU
+[00:40:40] [Server thread/INFO]: BritoHDZ has made the advancement [Stone Age]
+[00:41:19] [Server thread/INFO]: .JoanLewis70 has made the advancement [Stone Age]
+[00:42:05] [Server thread/INFO]: BritoHDZ has made the advancement [Getting an Upgrade]
+[00:42:10] [Server thread/INFO]: .JoanLewis70 was blown up by Creeper
+[00:42:23] [Server thread/INFO]: BritoHDZ issued server command: /tp .JoanLewis70 BritoHDZ
+[00:42:23] [Server thread/INFO]: [BritoHDZ: Teleported .JoanLewis70 to BritoHDZ]
+[00:44:44] [Server thread/INFO]: BritoHDZ issued server command: /difficulty normal
+[00:44:44] [Server thread/INFO]: [BritoHDZ: The difficulty has been set to Normal]
+[00:46:02] [Server thread/INFO]: BritoHDZ issued server command: /gamemode survival .JoanLewis70
+[00:46:23] [Server thread/INFO]: BritoHDZ has made the advancement [Monster Hunter]
