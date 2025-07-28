@@ -430,3 +430,89 @@ java.lang.NullPointerException: null
 [00:44:44] [Server thread/INFO]: [BritoHDZ: The difficulty has been set to Normal]
 [00:46:02] [Server thread/INFO]: BritoHDZ issued server command: /gamemode survival .JoanLewis70
 [00:46:23] [Server thread/INFO]: BritoHDZ has made the advancement [Monster Hunter]
+[00:49:19] [Async Chat Thread - #0/INFO]: [Not Secure] <BritoHDZ> qque paso?
+[00:49:32] [Async Chat Thread - #0/INFO]: [Not Secure] <.JoanLewis70> no seeee
+[00:49:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] JoanLewis70 has disconnected from the Java server because of Bedrock client disconnected
+[00:49:44] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .JoanLewis70 disconnected
+[00:49:44] [Server thread/INFO]: .JoanLewis70 lost connection: Disconnected
+[00:49:44] [Server thread/INFO]: .JoanLewis70 left the game
+[00:57:15] [Server thread/INFO]: BritoHDZ lost connection: Disconnected
+[00:57:15] [Server thread/INFO]: BritoHDZ left the game
+[00:57:29] [Server thread/INFO]: Stopping the server
+[00:57:29] [Server thread/INFO]: Stopping server
+[00:57:29] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[00:57:30] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[00:57:30] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:57:30] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:57:30] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.32.4-T20250718161642
+[00:57:30] [WebSocketConnectReadThread-101/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[00:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[00:57:31] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[00:57:31] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.28
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.4.24 [build 117]
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 1ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 1ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagMonitor in 1ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagMonitor in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 1ms.
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 2ms!
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[00:57:31] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 0ms!
+[00:57:31] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[00:57:31] [Server thread/INFO]: [GraveLootZ] Disabling GraveLootZ v1.2
+[00:57:31] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been disabled!
+[00:57:31] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[00:57:31] [Server thread/INFO]: Saving players
+[00:57:31] [Server thread/INFO]: Saving worlds
+[00:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Saved 295 block chunks, 113 entity chunks, 0 poi chunks in world 'world' in 0.70s
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[00:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:57:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Saved 793 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.28s
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[00:57:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.21s
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[00:57:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[00:57:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:57:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:57:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:57:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:57:32] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[00:57:32] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[00:57:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:57:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
