@@ -107,6 +107,7 @@ Toggles:
     Fuego: false
     # Esta opción indica el poder de explosión de los gatos, recomiendo 10 para servers poco potentes, pero lo normal en Permadeath es 200
     Explosion-Power: 200
+  OP-Ban: true
 # Mensajes generales
 Server-Messages:
   # ¿Deseas revelar las coordenadas de muerte de un jugador cuando muera?

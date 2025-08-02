@@ -1,170 +1,89 @@
-[02:15:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:15:43] [ServerMain/INFO]: Loaded 7 recipes
-[02:15:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[02:15:44] [Server thread/INFO]: Loading properties
-[02:15:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[02:15:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:15:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:15:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[02:45:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:46:01] [ServerMain/INFO]: Loaded 7 recipes
+[02:46:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:46:02] [Server thread/INFO]: Loading properties
+[02:46:02] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[02:46:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:46:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:46:03] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:15:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:15:45] [Server thread/INFO]: Default game type: SURVIVAL
-[02:15:45] [Server thread/INFO]: Generating keypair
-[02:15:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:15:45] [Server thread/INFO]: Using epoll channel type
-[02:15:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:15:45] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[02:15:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[02:15:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2359af69]
-[02:15:46] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.18
-[02:15:46] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v1.3
-[02:15:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[02:15:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:15:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[02:15:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:15:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:15:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[02:15:48] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
-[02:15:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[02:15:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[02:15:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[02:15:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:15:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:15:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:15:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:15:49] [Server thread/INFO]: Preparing level "world"
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[02:15:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[02:15:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:15:50] [Server thread/INFO]: Time elapsed: 260 ms
-[02:15:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:15:50] [Server thread/INFO]: Time elapsed: 92 ms
-[02:15:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:15:50] [Server thread/INFO]: Time elapsed: 60 ms
-[02:15:50] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.18
-[02:15:50] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
-[02:15:50] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
-[02:15:51] [Server thread/INFO]: Running delayed init tasks
-[02:15:51] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
-[02:15:51] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
-[02:15:51] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
-[02:15:51] [Server thread/INFO]: ------------------------------------------
-[02:15:51] [Server thread/INFO]:              PERMADEATH
-[02:15:51] [Server thread/INFO]:      - Versión: 1.3
-[02:15:51] [Server thread/INFO]:      - Versión del Servidor: v1.20
-[02:15:51] [Server thread/INFO]: ------------------------------------------
-[02:15:51] [Server thread/INFO]:  >> INFORME DE ESTADO
-[02:15:51] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
-[02:15:51] [Server thread/INFO]:     > End: world_the_end
-[02:15:51] [Server thread/INFO]:     > Overworld: world
-[02:15:51] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
-[02:15:51] [Server thread/INFO]: > Software: PaperMC (Compatible)
-[02:15:51] [Server thread/INFO]: > Cambios:
-[02:15:51] [Server thread/INFO]: >   Días disponibles: 1-60
-[02:15:51] [Server thread/INFO]: Done (7.872s)! For help, type "help"
-[02:15:51] [Server thread/INFO]: Timings Reset
-[02:15:51] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] There is an update available for TabTPS!
-[02:15:51] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] This server is running version v1.3.18, which is 10 versions outdated.
-[02:15:51] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] Download the latest version, v1.3.28 from GitHub at the link below:
-[02:15:51] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] https://github.com/jpenilla/TabTPS/releases/tag/v1.3.28
-[02:15:51] [Craft Scheduler Thread - 2 - Permadeath/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
-[02:16:00] [User Authenticator #0/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[02:16:00] [Server thread/INFO]: BritoHDZ se ha unido al servidor.
-[02:16:00] [Server thread/INFO]: BritoHDZ[/127.19.110.236:46947] logged in with entity id 254 at ([world]-140.36946408692512, 70.0, -163.3073801143587)
-[02:16:56] [Server thread/INFO]: BritoHDZ issued server command: /tabtps toggle actionbar
-[02:17:34] [Server thread/INFO]: BritoHDZ has made the advancement [Stone Age]
-[02:17:55] [Server thread/INFO]: BritoHDZ has made the advancement [Getting an Upgrade]
-[02:19:23] [Server thread/INFO]: BritoHDZ issued server command: /difficulty hard
-[02:19:23] [Server thread/INFO]: [BritoHDZ: The difficulty has been set to Hard]
-[02:20:59] [Server thread/INFO]: BritoHDZ has made the advancement [Acquire Hardware]
-[02:21:42] [Server thread/INFO]: BritoHDZ has made the advancement [Isn't It Iron Pick]
-[02:24:06] [Server thread/INFO]: BritoHDZ has made the advancement [Monster Hunter]
-[02:24:17] [Server thread/INFO]: BritoHDZ has made the advancement [Not Today, Thank You]
-[02:27:28] [Server thread/INFO]: BritoHDZ has made the advancement [Suit Up]
-[02:31:58] [Server thread/INFO]: BritoHDZ issued server command: /pdc dias
-[02:35:03] [Server thread/INFO]: Permadeath ➤ El jugador BritoHDZ no puede dar más horas de tormenta.
-[02:35:03] [Server thread/INFO]: BritoHDZ ha muerto y ahora descanza en paz.
-[02:35:03] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de BritoHDZ. ¡HA SIDO PERMABANEADO!
-[02:35:03] [Server thread/INFO]: X: -159 || Y: 21 || Z: -217
-[02:35:03] [Server thread/INFO]: BritoHDZ was shot by Skeleton
-[02:35:05] [Server thread/INFO]: BritoHDZ lost connection: Has sido PERMABANEADO
-[02:35:05] [Server thread/INFO]: BritoHDZ ha abandonado el servidor.
-[02:35:13] [User Authenticator #1/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[02:35:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@569e7979[id=5d42d367-7b7b-38fd-b155-8f085e1cc18a,name=BritoHDZ,properties={textures=[com.mojang.authlib.properties.Property@193a22c7]},legacy=false] (/127.19.110.236:52053): You are banned from this server.
-Reason: §cHas sido PERMABANEADO
-[02:35:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@569e7979[id=5d42d367-7b7b-38fd-b155-8f085e1cc18a,name=BritoHDZ,properties={textures=[com.mojang.authlib.properties.Property@193a22c7]},legacy=false] (/127.19.110.236:52053) lost connection: You are banned from this server.
-Reason: §cHas sido PERMABANEADO
-[02:35:57] [Server thread/INFO]: This command must be used with a player.
-[02:36:38] [Server thread/INFO]: Unbanned BritoHDZ
-[02:36:41] [User Authenticator #2/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
-[02:36:41] [Server thread/INFO]: BritoHDZ se ha unido al servidor.
-[02:36:41] [Server thread/INFO]: BritoHDZ[/127.19.110.236:42333] logged in with entity id 2709 at ([world]-158.52167622800857, 21.79673560066869, -216.68771990114774)
-[02:36:51] [Server thread/INFO]: BritoHDZ issued server command: /gamemode creative
-[02:36:51] [Server thread/INFO]: [BritoHDZ: Set own game mode to Creative Mode]
-[02:36:53] [Server thread/INFO]: BritoHDZ issued server command: /gamemode spectator
-[02:36:53] [Server thread/INFO]: [BritoHDZ: Set own game mode to Spectator Mode]
-[02:37:10] [Server thread/INFO]: BritoHDZ issued server command: /difficulty peaceful
-[02:37:10] [Server thread/INFO]: [BritoHDZ: The difficulty has been set to Peaceful]
-[02:37:13] [Server thread/INFO]: BritoHDZ issued server command: /gamemode survival
-[02:37:13] [Server thread/INFO]: [BritoHDZ: Set own game mode to Survival Mode]
-[02:37:56] [Server thread/INFO]: BritoHDZ issued server command: /difficulty normal
-[02:37:56] [Server thread/INFO]: [BritoHDZ: The difficulty has been set to Normal]
-[02:38:07] [Server thread/INFO]: BritoHDZ issued server command: /pdc dias
-[02:46:22] [Server thread/INFO]: BritoHDZ issued server command: /gamemode spectator
-[02:46:22] [Server thread/INFO]: [BritoHDZ: Set own game mode to Spectator Mode]
-[02:46:42] [Server thread/INFO]: BritoHDZ issued server command: /gamemode survival
-[02:46:42] [Server thread/INFO]: [BritoHDZ: Set own game mode to Survival Mode]
-[02:47:20] [Server thread/INFO]: BritoHDZ issued server command: /gamemode spectator
-[02:47:20] [Server thread/INFO]: [BritoHDZ: Set own game mode to Spectator Mode]
-[02:47:29] [Server thread/INFO]: BritoHDZ issued server command: /gamemode survival
-[02:47:29] [Server thread/INFO]: [BritoHDZ: Set own game mode to Survival Mode]
-[02:47:41] [Server thread/INFO]: BritoHDZ issued server command: /stop
-[02:47:41] [Server thread/INFO]: [BritoHDZ: Stopping the server]
-[02:47:41] [Server thread/INFO]: Stopping server
-[02:47:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
-[02:47:41] [Server thread/INFO]: [Permadeath] Disabling Permadeath v1.3
-[02:47:41] [Server thread/INFO]: ------------------------------------------
-[02:47:41] [Server thread/INFO]:              PERMADEATH
-[02:47:41] [Server thread/INFO]:      - Desactivando el Plugin.
-[02:47:41] [Server thread/INFO]: ------------------------------------------
-[02:47:41] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.18
-[02:47:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
-[02:47:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:47:41] [Server thread/INFO]: Saving players
-[02:47:41] [Server thread/INFO]: BritoHDZ lost connection: Server closed
-[02:47:41] [Server thread/INFO]: BritoHDZ left the game
-[02:47:41] [Server thread/INFO]: Saving worlds
-[02:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:47:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:47:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1469 block chunks, 298 entity chunks, 0 poi chunks in world 'world' in 1.26s
-[02:47:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:47:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:47:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:47:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:47:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:47:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 24 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:47:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:47:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:47:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:47:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:47:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:47:43] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[02:47:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:47:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:47:43] [Server thread/INFO]: Flushing Chunk IO
-[02:47:43] [Server thread/INFO]: Closing Thread Pool
-[02:47:43] [Server thread/INFO]: Closing Server
+[02:46:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:46:03] [Server thread/INFO]: Default game type: SURVIVAL
+[02:46:03] [Server thread/INFO]: Generating keypair
+[02:46:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:46:04] [Server thread/INFO]: Using epoll channel type
+[02:46:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:46:04] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[02:46:04] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[02:46:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@788167a4]
+[02:46:05] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.18
+[02:46:05] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v1.3
+[02:46:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[02:46:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:46:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[02:46:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:46:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:46:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[02:46:07] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
+[02:46:07] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[02:46:08] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[02:46:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:46:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:46:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:46:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:46:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:46:08] [Server thread/INFO]: Preparing level "world"
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.7.8) is available! Downloading update...
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:46:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[02:46:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 518ms
+[02:46:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[02:46:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[02:46:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:46:10] [Server thread/INFO]: Time elapsed: 652 ms
+[02:46:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:46:10] [Server thread/INFO]: Time elapsed: 67 ms
+[02:46:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:46:10] [Server thread/INFO]: Time elapsed: 59 ms
+[02:46:10] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.18
+[02:46:11] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
+[02:46:11] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
+[02:46:12] [Server thread/INFO]: Running delayed init tasks
+[02:46:12] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
+[02:46:12] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
+[02:46:12] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[02:46:12] [Server thread/INFO]: ------------------------------------------
+[02:46:12] [Server thread/INFO]:              PERMADEATH
+[02:46:12] [Server thread/INFO]:      - Versión: 1.3
+[02:46:12] [Server thread/INFO]:      - Versión del Servidor: v1.20
+[02:46:12] [Server thread/INFO]: ------------------------------------------
+[02:46:12] [Server thread/INFO]:  >> INFORME DE ESTADO
+[02:46:12] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[02:46:12] [Server thread/INFO]:     > End: world_the_end
+[02:46:12] [Server thread/INFO]:     > Overworld: world
+[02:46:12] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[02:46:12] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[02:46:12] [Server thread/INFO]: > Cambios:
+[02:46:12] [Server thread/INFO]: >   Días disponibles: 1-60
+[02:46:12] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] There is an update available for TabTPS!
+[02:46:12] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] This server is running version v1.3.18, which is 10 versions outdated.
+[02:46:12] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] Download the latest version, v1.3.28 from GitHub at the link below:
+[02:46:12] [Craft Scheduler Thread - 3 - TabTPS/INFO]: [TabTPS] https://github.com/jpenilla/TabTPS/releases/tag/v1.3.28
+[02:46:12] [Server thread/INFO]: Done (10.231s)! For help, type "help"
+[02:46:12] [Server thread/INFO]: Timings Reset
+[02:46:12] [Craft Scheduler Thread - 3 - Permadeath/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
+[02:46:21] [User Authenticator #0/INFO]: UUID of player BritoHDZ is 5d42d367-7b7b-38fd-b155-8f085e1cc18a
+[02:46:21] [Server thread/INFO]: BritoHDZ se ha unido al servidor.
+[02:46:21] [Server thread/INFO]: BritoHDZ[/127.129.71.179:38447] logged in with entity id 274 at ([world]-171.34492226322817, 64.0, -247.62379202359244)
